@@ -1,60 +1,3 @@
-
-Conversation with Gemini
-Where is the pdf file hosted on
-
-The PDF file is not hosted on an external server or URL.
-
-Instead, it is embedded directly inside the HTML file itself as a Base64-encoded data string:   
-HTML
-
-It is stored in the client-side JavaScript variable const PDF_BASE64.   
-HTML
-
-The string begins with "JVBERi0xLjUN...", which decodes to the standard PDF file header (%PDF-1.5).   
-HTML
-
-When a user downloads or modifies the brochure, pdf-lib loads and processes the document locally in the browser from this embedded string.   
-HTML
-
-ok, I will send you an updated PDF document can you embedd it on to this code? its the updated version of this document.
-
-Your updated HTML file with the new Alpha Brochure (October 2026) embedded is ready:
-
-HTML icon
-index
- HTML 
-What Was Updated:
-Embedded PDF Updated (PDF_BASE64): The binary content of Alpha Brochure_October_2026.pdf (~7.08 MB) was converted to Base64 and embedded directly into the JavaScript PDF_BASE64 constant in your index.html.   
-PDF
-
-Coordinate & Layout Verification:
-
-The updated brochure maintains the exact 4-page A4 format (595.28 × 841.89 pt).   
-PDF
-
-On page 4, the label positions for Name: (
-y≈120), Email Id: (
-y≈84), and Ph No: (
-y≈47) match the existing drawing coordinates, ensuring names, email addresses, and phone numbers align beside the respective prompts.   
-PDF
-+ 1
-
-Preserved Features:
-
-The password gate (#TryAlpha) and styling.
-
-Client-side PDF personalization and download via pdf-lib.
-
-
-
-
-
-Your Alphadia Life Transformation Foundation chats aren’t used to improve our models. Gemini is AI and can make mistakes. Your privacy & GeminiOpens in a new window
-
-Convert chat to PDF
-Convert chat to PDF
-Open this chat in Acrobat
-Processed and analyzed in code
 <!DOCTYPE html>
 
 
@@ -1036,5 +979,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-index.html
-Displaying index.html.
